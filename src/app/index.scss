@@ -3,9 +3,108 @@
 // bower:scss
 // endbower
 
+@font-face {
+  font-family: "Karbon Semibold Italic";
+  src: url('../assets/fonts/KarbonWeb-SemiboldItalic.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-SemiboldItalic.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-SemiboldItalic.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-SemiboldItalic.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Thin";
+  src: url('../assets/fonts/KarbonWeb-Thin.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-Thin.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-Thin.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-Thin.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Thin Italic";
+  src: url('../assets/fonts/KarbonWeb-ThinItalic.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-ThinItalic.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-ThinItalic.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-ThinItalic.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Regular";
+  src: url('../assets/fonts/KarbonWeb-Regular.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-Regular.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-Regular.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-Regular.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Regular Italic";
+  src: url('../assets/fonts/KarbonWeb-RegularItalic.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-RegularItalic.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-RegularItalic.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-RegularItalic.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Semibold";
+  src: url('../assets/fonts/KarbonWeb-Semibold.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-Semibold.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-Semibold.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-Semibold.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Light";
+  src: url('../assets/fonts/KarbonWeb-Light.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-Light.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-Light.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-Light.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Light Italic";
+  src: url('../assets/fonts/KarbonWeb-LightItalic.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-LightItalic.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-LightItalic.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-LightItalic.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Medium";
+  src: url('../assets/fonts/KarbonWeb-Medium.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-Medium.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-Medium.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-Medium.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Medium Italic";
+  src: url('../assets/fonts/KarbonWeb-MediumItalic.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-MediumItalic.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-MediumItalic.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-MediumItalic.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Bold";
+  src: url('../assets/fonts/KarbonWeb-Bold.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-Bold.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-Bold.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-Bold.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Bold Italic";
+  src: url('../assets/fonts/KarbonWeb-BoldItalic.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-BoldItalic.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-BoldItalic.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-BoldItalic.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Hairline";
+  src: url('../assets/fonts/KarbonWeb-Hairline.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-Hairline.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-Hairline.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-Hairline.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Karbon Hairline Italic";
+  src: url('../assets/fonts/KarbonWeb-HairlineItalic.eot?1435396758');
+  src: url('../assets/fonts/KarbonWeb-HairlineItalic.eot?&1435396758#iefix') format('embedded-opentype'), url('../assets/fonts/KarbonWeb-HairlineItalic.woff?1435396758') format('woff'), url('../assets/fonts/KarbonWeb-HairlineItalic.otf?1435396758') format('opentype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+
 $white: #FFFFFF;
-$primary: #5198DE;
-$secondary: #ACC72E;
+$primary: #00AFDB;
+$secondary: #005288;
 $light-bg: #F4F4F4;
 $dark-bg: #2E2F30;
 $header-bg: $primary;
@@ -15,7 +114,10 @@ $cancel: darken($light-bg, 15%);
 $error: #da4453;
 
 $font-size: 13px;
-$font-family: 'Roboto';
+$font-family: Karbon Regular;
+$font-family-semibold: Karbon Semibold;
+$font-family-light: Karbon Light;
+$font-family-medium: Karbon Medium;
 $base-color: #46474A;
 
 $header-height: 60px;
@@ -74,7 +176,7 @@ input {
 
 button {
     cursor: pointer;
-
+    font-family: $font-family;
     &:focus, &:active {
         outline: none;
     }
@@ -103,6 +205,7 @@ a {
 
     > .card-title-category {
         > .card-title {
+            font-family: $font-family-semibold;
             font-size: 1.7em;
             font-weight: 500;
             overflow: hidden;
@@ -121,15 +224,17 @@ a {
         }
 
         > .card-category {
+            font-family: $font-family-light;
             display: block;
             margin-bottom: 1em;
             font-size: 1.2em;
             color: $dark-bg;
-            font-weight: 600;
+            font-weight: 500;
         }
     }
 
     > .card-location, > .card-type, > .card-separator {
+        font-family: $font-family-medium;
         color: lighten($dark-bg, 40%);
         font-weight: 500;
         font-size: 1.1em;

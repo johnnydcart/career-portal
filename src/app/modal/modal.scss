@@ -64,6 +64,7 @@
 
             > section {
                 > h2 {
+                    font-family: $font-family-semibold;
                     font-size: 1.8em;
                     margin: 0.5em 0 0.2em;
                     white-space: nowrap;
@@ -82,6 +83,7 @@
                     &.category {
                         display: block;
                         color: lighten($primary, 20%);
+                        font-family: $font-family-light;
                         font-size: 1.3em;
                         font-weight: 700;
                         margin-bottom: 1.2em;
@@ -90,6 +92,7 @@
                     &.location,
                     &.separator,
                     &.type {
+                        font-family: $font-family-medium;
                         color: #3D5668;
                     }
                 }
@@ -190,7 +193,8 @@
 
                             input,
                             select {
-                                color: lighten($dark-bg, 30%);
+                                font-family: $font-family-light;
+                                color: lighten($dark-bg, 10%);
                                 padding: 0.5em;
 
                                 &.ng-invalid {
@@ -206,7 +210,7 @@
                                     transition: border-bottom 0.2s ease-in-out;
                                     //padding: 0.5em;
                                     &:focus {
-                                        border-bottom: 1px solid $primary;
+                                        border-bottom: 1px solid $secondary;
                                     }
                                 }
                             }
@@ -262,8 +266,8 @@
                         }
 
                         &.upload-container {
-                            border: 1px solid $primary;
-                            color: $primary;
+                            border: 1px solid $secondary;
+                            color: $secondary;
                             border-radius: 3px;
                             background: transparent;
                             text-align: center;
@@ -343,7 +347,7 @@
                         padding: 0.5em;
 
                         &:focus {
-                            border-bottom: 1px solid $primary;
+                            border-bottom: 1px solid $secondary;
                         }
                     }
                     &.consent-checkbox {
@@ -370,7 +374,7 @@
                     }
 
                     &:focus {
-                        border-bottom-color: $primary;
+                        border-bottom-color: $secondary;
                     }
                 }
             }
@@ -411,6 +415,7 @@
             button {
                 text-transform: uppercase;
                 line-height: 50px;
+                font-family: $font-family-medium;
                 font-size: 1.5em;
                 border: none;
                 width: 49%;
@@ -421,7 +426,7 @@
                 &[name="ok"] {
                     color: $cancel;
                     background: transparent;
-                    font-weight: 600;
+                    font-weight: 700;
                     display: none;
                     @include tablet() {
                         display: inline-block;
@@ -444,6 +449,7 @@
                     flex: 0;
                     float: right;
                     color: $primary;
+                    font-weight: 500;
                     font-size: 1em;
                     width: 200px;
                     display: inline-block;
