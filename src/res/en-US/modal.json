@@ -15,7 +15,8 @@
     "emailPlaceholder": "Email@domain.com",
     "emailValidationRequired": "Please enter your email.",
     "emailValidationFormat": "Please enter a valid email.",
-    "phonePlaceholder": "Mobile Phone (Optional)",
+    "phonePlaceholder": "Telephone",
+    "phoneValidationRequired": "Please enter your telephone number",
     "resumeFilePlaceholder": "Resume File",
     "resumeValidation": "Please attach your resume.",
     "resumeInvalidFormat": "is not a supported file format",
@@ -43,6 +44,6 @@
     "skillHeading": "Skills:",
     "present": "Present",
     "profileURL": "LinkedIn Profile URL:",
-    "byChecking": "By checking this box you're agreeing to our",
+    "byChecking": "I have read and understood the notice below. Please tick the box to give us permission to collect and store the information you are supplying to us and to contact you with further information. To see what we do with the information you supply to us, please review our",
     "privacyPolicy": "Privacy Policy"
 }
