@@ -10,6 +10,7 @@ header.app {
 
     @include desktop() {
         text-align: left;
+        display: none;
     }
 
     > label {
