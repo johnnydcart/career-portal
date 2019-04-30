@@ -1,10 +1,18 @@
 section.job-list {
     padding: 1.5em;
 
+    // > h4 {
+    //     color: darken($light-bg, 15%);
+    //     font-size: 1.3em;
+    //     font-weight: 500;
+    //     margin: 0 0 1em;
+    // }
     > h4 {
-        color: darken($light-bg, 15%);
-        font-size: 1.3em;
-        font-weight: 500;
+        font-size: 1.6em;
+        font-weight: 200;
+        color: $primary;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
         margin: 0 0 1em;
     }
 

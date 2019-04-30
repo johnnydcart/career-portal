@@ -107,7 +107,7 @@ $primary: #00AFDB;
 $secondary: #005288;
 $light-bg: #F4F4F4;
 $dark-bg: #2E2F30;
-$header-bg: $primary;
+$header-bg: $white;
 $sidebar-header-bg: #252728;
 $toggle-active: #fff;
 $cancel: darken($light-bg, 15%);
@@ -142,7 +142,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: $light-bg;
+    background-color: $white;
     box-sizing: border-box;
 
     > section.main {
@@ -194,7 +194,7 @@ a {
 
 .card {
     background: $white;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .30);
     padding: 1em;
 
     > .card-date {
